@@ -8,15 +8,15 @@
 
 body {
     font-family: serif;
-    background-color: #101820;
-    color: #fff;
+    background-color: #fff;
+    color: #000000;
     line-height: 2;
     font-size: 1.1em;
 }
 
 header {
     background: #090e13;
-    color: #b5bdcc;
+    color: #fff;
     padding: 3em 0;
     text-align: center;
     
@@ -28,7 +28,7 @@ header h1 {
 
 header p {
     font-size: 1.5em;
-    color: #bcbcb5;
+    color: #43433d;
     text-align: center;
     text-decoration: none;
 }
@@ -40,8 +40,8 @@ section {
 }
 
 section h2 {
-    color: #dcd8cf;
-    border-bottom: 1px solid #fff;
+    color: #363634;
+    border-bottom: 1px solid #444242;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -139,7 +139,7 @@ footer {
 /* Skill level indicator */
 .skill-level {
     height: 100%;
-    background-color: #0521bf9f;
+    background-color: #000000;
     border-radius: 8px 0 0 8px;
 }
 
