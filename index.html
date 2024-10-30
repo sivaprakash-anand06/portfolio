@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sivaprakash's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Lora:wght@400;700&family=Spectral:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Sivaprakash Anand</h1>
-        <p>
-        <a href="https://www.linkedin.com/in/sivaprakashanand" target="_blank">
-            <img src="linkedin-app-white-icon.png" alt="LinkedIn" class="image-link" width="30">
-        </a>
-        <a href="mailto:sivaprakashanand06@gmail.com" target="_blank" >
-            <img src="email.png" alt="eMail" class="image-link" width="30"></a>
-        </p>
+        <div class="header-content">
+            <img src="display_picture.jpg" alt="Profile Photo" class="profile-photo">
+            <div>
+            <h1>Sivaprakash Anand</h1>
+            <p>
+            <a href="mailto:sivaprakashanand06@gmail.com" target="_blank" >
+                <img src="email.png" alt="eMail" class="image-link" width="30"></a>
+            <a href="https://www.linkedin.com/in/sivaprakashanand" target="_blank">
+                <img src="linkedin-app-white-icon.png" alt="LinkedIn" class="image-link" width="30">
+            </a>
+
+            <br>
+            </div>
+        </div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#experience">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <!-- <a href="#key-areas">Interest</a> -->
+        </nav>
+    </p>
     </header>
 
     <section id="about">
@@ -50,17 +65,14 @@
             - 40% reduction in  project execution time.<br>
             - 60% reduction in reporting time.<br> 
             <strong>Key Projects:</strong><br>
-            <strong>1. Command line interface(CLI) for a project management tool<br></strong>
+            <strong>1. Command line interface (CLI) for a project management tool<br></strong>
             - Developed CLI tool to track projects from developer's preferred environment without the need to swtich to browser or desktop application.<br>
             - Utilized Python and REST API to replicate all functionalities from web application into intuitive commands. Ex. create-task to create a new task in the application.<br>
-            - Prioritized features and regularly released new versions with improved functionalities and bug fixes.<br>
-            - Designed commands to provide both project level and granular data to suit different user needs (Developers, Managers, Scrum master).<br><br>
+            - Designed commands to provide both project level and granular level data to suit different user needs (Developers, Managers, Scrum master).<br><br>
             <strong>2. Team management dashboard</strong><br>
-            - A dashboard to show all technical activities of the team such as open tickets, code failures and tasks status.<br> 
-            - Helped manager to track project and increased developers productivity by providing insights at single place.<br><br>  
-            <strong>3. Process automation tools</strong><br>
-            - Developed CLI tools to automate certain software development process, reducing time taken from hours to minutes.<br>
-            - Ex. Creating new branches, updating dependency versions, performing checks for hundreds of repository.
+            - Designed interactive dashboard to show team activities such as tasks status, code changes, and test failures.<br>
+            - Utilized Python for processing data, PostgreSQL for storing data and Tableau for visualizing data. <br>
+            - Automated the data pipeline to ensure faster access to KPIs. 
         </li>
         </ul>
     </section>
@@ -229,17 +241,11 @@
             <div class="skill-bar">
                 <div class="skill-level" style="width: 30%;"></div>
             </div>
-        </div>
-        <div class="skill">
-            <div class="skill-name">Docker</div>
-            <div class="skill-bar">
-                <div class="skill-level" style="width: 30%;"></div>
-            </div>
-        </div>    
+        </div>   
     </div>
     </section>
 
-    <section id="education">
+    <section id="certifications">
         <h2>Certifications</h2>
         <ul>
             <li>
@@ -252,7 +258,7 @@
             </li>
             <li>
                 <strong>Generative AI</strong> - Google Cloud Platform (GCP) - <i>Jun 2024 (no expiry)</i><br>
-                Key Topics: Usage of various Generative Modules, Fine tuning models, Vertex AI service. 
+                Key Topics: Usage of various generative AI models, Fine tuning models, Vertex AI service. 
             </li>
             <li>
                 <strong>IBM Data Science Certification</strong> - Coursera - <i>Aug 2020 (no expiry)</i><br>
@@ -265,7 +271,7 @@
         </ul>
     </section>
 
-    <section id="key-areas">
+    <!-- <section id="key-areas">
         <h2>My Interests</h2>
         
         <div class="key-areas-container">
@@ -275,7 +281,7 @@
             <div class="key-area-box">Data Analytics</div>
             <div class="key-area-box">Generative AI</div>
         </div>
-    </section>
+    </section> -->
 
     <section id="education">
         <h2>Educational Background</h2>
@@ -289,13 +295,6 @@
         <ul><li>- Intern at Defence Research and Development Laboratory(DRDL), DRDO - <i>Jun 2017</i></li></ul>
     </section>
 
-    <!--<section id="downloads">
-        <h2>Downloads</h2>
-        
-        <div class="pdf-preview">
-            <img src="resume_preview.png" alt="Resume preview" width="100%">
-            <p><a href="https://drive.google.com/file/d/1MLDMw2CbpnA9VCyQC-A2cSKfewbcc1_8/view?usp=sharing" download="Sivaprakash_Anand_Resume.pdf">Download Resume</a></p>
-        </div>
-    </section>-->
+    <button id="backToTop">Top</button>
 </body>
 </html>
