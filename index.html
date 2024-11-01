@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sivaprakash's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Lora:wght@400;700&family=Spectral:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -63,18 +63,23 @@
             <strong>Impact:</strong><br>
             - 90% reduction in time taken by processes in release cycle.<br>
             - 40% reduction in  project execution time.<br>
-            - 60% reduction in reporting time.<br> 
-            <strong>Key Projects:</strong><br>
-            <strong>1. Command line interface (CLI) for a project management tool<br></strong>
-            - Developed CLI tool to track projects from developer's preferred environment without the need to swtich to browser or desktop application.<br>
-            - Utilized Python and REST API to replicate all functionalities from web application into intuitive commands. Ex. create-task to create a new task in the application.<br>
-            - Designed commands to provide both project level and granular level data to suit different user needs (Developers, Managers, Scrum master).<br><br>
-            <strong>2. Team management dashboard</strong><br>
-            - Designed interactive dashboard to show team activities such as tasks status, code changes, and test failures.<br>
-            - Utilized Python for processing data, PostgreSQL for storing data and Tableau for visualizing data. <br>
-            - Automated the data pipeline to ensure faster access to KPIs. 
-        </li>
-        </ul>
+            - 60% reduction in reporting time.<br>
+            
+
+            <h3>Key Projects</h3>
+            <button class="project-button" data-project="CLI tool for a project management">Show: CLI tool for a project management</button>
+            <div class="project-content">
+                <p> - Developed CLI tool to track projects from developer's preferred environment without the need to swtich to browser or desktop application.<br>
+                    - Utilized Python and REST API to replicate all functionalities from web application into intuitive commands. Ex. create-task to create a new task in the application.<br>
+                    - Designed commands to provide both project level and granular level data to suit different user needs (Developers, Managers, Scrum master). </p>
+            </div>
+            <br>
+            <button class="project-button" data-project="Team management dashboard">Show: Team management dashboard</button>
+            <div class="project-content">
+                <p> - Designed interactive dashboard to show team activities such as tasks status, code changes, and test failures.<br>
+                    - Utilized Python for processing data, PostgreSQL for storing data and Tableau for visualizing data. <br>
+                    - Automated the data pipeline to ensure faster access to KPIs. </p>
+            </div>
     </section>
 
     <section id="skills">
@@ -294,7 +299,7 @@
         <strong>B.Tech</strong> in Aerospace Engineering- <strong>SRM Institute of Science and Technology, Chennai</strong> - <i>2014 - 2018</i>
         <ul><li>- Intern at Defence Research and Development Laboratory(DRDL), DRDO - <i>Jun 2017</i></li></ul>
     </section>
-
     <button id="backToTop">Top</button>
+    <script src="javascript.js"></script>
 </body>
 </html>
